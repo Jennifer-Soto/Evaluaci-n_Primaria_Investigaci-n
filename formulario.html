@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación</title>
+</head>
+<body>
+    <h2>Cine</h2>
+    <form action="codigo.php" method="post"> 
+
+        <label for=""> Nombres: </label>
+        <input type="text" name="nomb" required>
+        <br>
+
+        <label for=""> Apellidos: </label>
+        <input type="text" name="apell" required>
+        <br>
+
+        <label for=""> Dirección: </label>
+        <input type="text" name="direc" required>
+        <br>
+
+        <label for=""> Teléfono: </label>
+        <input type="number" name="tel" required>
+        <br>
+
+        <label for="">Número de identidad: </label>
+        <input type="number" name="num_ident" required>
+        <br>
+
+        <label for=""> Edad: </label>
+        <input type="number" name="edad" min="10"required>
+        <br>
+
+        <label for="">Dinero disponible: </label>
+        <input type="number" name="dine_disp" required>
+        <br>
+
+        <label for=""> Película: </label>
+        <select name="peli">
+            <option value="1">Rambo (5000+IVA)</option> 
+            <option value="2">Depredador (7000+IVA)</option> 
+            <option value="3">El cazador de brujas (9000+IVA)</option>
+            <option value="4">La red (12000+IVA)</option> 
+         </select>
+        <br><br>
+        
+        <button> ENVIAR </button>
+    </form>
+
+</body>
+</html>
